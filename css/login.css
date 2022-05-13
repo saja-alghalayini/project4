@@ -1,0 +1,48 @@
+
+.container 
+{
+    text-align: center;
+}
+
+
+.login
+{
+color:#142850 ;
+}
+
+.wlcm
+{
+    color: #27496dd0
+}
+
+
+.container input[type="password"], input[type="email"]
+{
+border: 1px solid #B1D0E0;
+background-color:#b1d0e08e ;
+text-align: left;
+width: 15%;
+color: #00A8CC;
+font-size: 20px;
+}
+
+.container input[type=submit]
+{
+    border-color: #0C7B93;
+    border-radius: 20px;
+    font-weight: bolder;
+    background: #0c7a93;
+    color: #142850;
+    padding: 10px 35px;
+    margin: 15px auto 10px;
+    width: 10%;
+    display: block;
+}
+
+.text
+{
+    margin-left: 43%;
+    text-align: left;
+    color: #27496D;
+    font-size: 17px;
+}

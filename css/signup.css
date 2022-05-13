@@ -1,0 +1,75 @@
+
+
+
+.signup form 
+{
+    text-align: center;
+}
+
+.signup-form input[type="text"], input[type="Email"], input[type="number"], 
+input[type="Password"], input[type="date"]
+{
+border: 1px solid #B1D0E0;
+background-color:#b1d0e08e ;
+text-align: left;
+padding: 10px 0px 1px;
+margin: 10px auto 25px;
+width: 30%;
+color: #00A8CC;
+font-size: 20px;
+margin-left: 36%;
+}
+
+
+.signup-form input[type=text]
+{
+    margin-left: 36%;
+    text-align: left;
+}
+
+.form
+{
+    margin-left: 47%;
+    text-align: left;
+    color: #27496D;
+    font-size: 20px;
+}
+
+.form1
+{
+    margin-left: 47%;
+    margin-top: 40%;
+    text-align: left;
+    color: #27496D;
+    font-size: 17px;
+}
+
+
+.signup-form input[type=submit]
+{
+    border-color: #0C7B93;
+    border-radius: 20px;
+    font-weight: bolder;
+    background: #0c7a93;
+    color: #142850;
+    padding: 10px 35px;
+    margin: 15px auto 10px;
+    width: 10%;
+    display: block;
+}
+
+
+
+.signup-form h1
+{
+    color: #142850;
+    text-align: center;
+}
+
+
+.signup-form p 
+{
+    color: #27496dd0;
+    text-align: center;
+}
+    
