@@ -55,7 +55,6 @@ if (isset($_POST['submit']))
         $middleName_correct=true;
     }
 
-
     else
     {
         $middleName_result="<span  class='form1' style=' color:#FF847C'>InCorrect value, your middle name should contain letters only</span> <br>";
@@ -70,7 +69,6 @@ if (isset($_POST['submit']))
         $familyName_result="<span  class='form1' style=' color:#99B898'>your family name is correct</span> <br>";
         $familyName_correct=true;
     }
-
 
     else
     {
@@ -87,7 +85,6 @@ if (isset($_POST['submit']))
         $email_correct=true;
     }
 
-
     else
     {
         $email_result="<span  class='form1' style=' color:#FF847C'>Incorrect Email</span> <br>";
@@ -102,7 +99,6 @@ if (isset($_POST['submit']))
         $password_result="<span  class='form1' style=' color:#99B898'>Correct Password</span> <br>";
         $password_correct=true;
     }
-
 
     else
     {
@@ -119,7 +115,6 @@ if (isset($_POST['submit']))
 
     if(preg_match($password_regex,$_SESSION['confirmPassword']))
     {
-
         if ($_SESSION['confirmPassword'] == $_SESSION['password'])
         {
             $password_match=true;
@@ -134,7 +129,6 @@ if (isset($_POST['submit']))
             $confirmPassword_result="<span  class='form1' style=' color:#FF847C'> the passwords does not match</span> <br>";
         }
     }
-
 
     else
     {
@@ -151,7 +145,6 @@ if (isset($_POST['submit']))
         $phoneNumber_result="<span class='form1'  style=' color:#99B898'>Correct Phone Number</span> <br>";
         $confirmPhone_correct=true;
     }
-
 
     else
     {
